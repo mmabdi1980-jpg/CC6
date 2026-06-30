@@ -1,0 +1,140 @@
+*{
+    margin:0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+       background-color: #4c4c4d;
+      box-sizing: content-box;
+}
+
+/*Navigation Bar Syling*/
+nav {
+        
+    background-color: whitesmoke;
+    color: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    
+    position: fixed;
+    z-index: 1;
+    border: 3px solid #0e0d0d;
+    gap: 200px;
+    font-style: bold;
+}
+
+/*Logo to styling*/
+.logo {    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    font-weight:800;
+    color: #000;
+}
+/*Tagline on the menue*/
+.tagline{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:800;
+    color: #000;
+    font-size: 25px;
+    display: flex;
+    
+    }
+
+/*Menu on header styling*/
+.menu {
+    background-color: whitesmoke;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+        
+}
+
+/*Menu header list styling*/
+.menu li {
+    background-color: whitesmoke;
+    padding: 5px 10px;
+}
+
+/*Menu header text styling*/
+.menu li a {
+    font-size: 20px;
+    color: #222222;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    padding: 5px 10px;
+    
+}
+/*Menu header text hover*/
+.menu li a:hover {
+    color: #ccc;
+}
+/*Menu header text active*/
+.menu li.active {
+    background-color: rgb(148, 148, 148);
+}
+/*Header socials*/
+.header-social{  
+display: flex;
+justify-content: right;
+gap:5px;
+font-size: 28px;
+}
+/*The first paragraph */
+.first-p{
+width: 80%;
+font-family:cursive;
+color: white;
+padding: 10px;
+font-size: 180px;
+text-align: left;
+}
+/*Fist paragraph sub*/
+.first-p sub{font-size: 28px;}
+/*styling the second paragraph*/
+.second-p {
+    
+   font-family:cursive;
+   text-align: left;
+    color: rgb(112, 112, 112);
+    font-size:60px;
+    }
+/*Styling the third paragraph*/
+.third-p{
+    
+    font-family:cursive;
+    text-align: left;
+    color: rgb(112, 112, 112);
+    font-size: 20px;      
+        
+    }
+/*Styling Virtical line */
+.vl {
+      font-size: 20px;
+      color: rgb(112, 112, 112);
+      border-left: 10px solid gray;
+      height: 180px;
+      
+    }
+/*Flex container*/
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 8%;
+    }
+/*The text after virtical line*/
+.vl p{
+    font-family: cursive; 
+    text-align:left;
+    font-size: 20px;
+    padding: 10px;
+    font-style: bold;
+    
+}   
+  
+  
+  
+;
